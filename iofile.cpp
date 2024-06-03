@@ -10,4 +10,10 @@ int main() {
     outfile.open("contohfile.txt");
 
     cout << ">= Menullis file, \'q\' untuk keluar" << endl;
+
+    while (true) {
+        cout << "- ";\
+        getline(cin, baris);
+        
+    }
 };
