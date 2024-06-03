@@ -1,4 +1,4 @@
-#include <iostream>
+#include <fstream>
 #include <iostream>
 #include <string>
 using namespace std;
@@ -15,6 +15,11 @@ int main() {
         cout << "- ";\
         getline(cin, baris);
         if (baris == "q") break;
+        outfile << baris << endl;
 
     }
+
+    outfile.close();
+
+    ifstream infile;
 };
